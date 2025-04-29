@@ -1,0 +1,13 @@
+## Digitalocean Template Repos
+This repository contains a template for a background worker process suitable for running a Discord bot.
+
+## How to setup 
+1. Install discord.py
+    - Run "pip3 install discord.py"
+2. Create and configure a discord bot.
+    - Go to the Discord Developer Portal and add a new application. Go to the "Bot" settings and copy the token to use as your 'DISCORD_TOKEN'.
+    - Under Bot Permissions, select the Text Permissions that you would like to allow for the bot. Enable "Message Content Intent".
+    - Go to OAuth2 settings and select "bot" from the Scopes. Again under Bot Permissions, select the Text Permissions that you would like to allow for the bot.
+    - At the bottom, copy the Generated URL and paste it into a new tab. Select the server you want to add the bot to and this will allow the bot to connect to your server.
+3. Run the application.
+    - Run "python3 discord_bot.py"
