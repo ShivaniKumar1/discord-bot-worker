@@ -1,0 +1,8 @@
+spec:
+  name: discord-bot-worker
+  services:
+  - environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/ShivaniKumar1/discord-bot-worker.git
+    name: discord-bot-worker
